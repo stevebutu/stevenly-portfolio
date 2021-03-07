@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 * {
   margin: 0;
@@ -8,13 +8,13 @@
 
 body {
   overflow-x: hidden; /* remove horizantal scroll */
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Playfair Display', serif;
   margin: 0;
   width: 100vw;
 }
 
 .container {
-  width: 85vw;
+  width: 60vw;
   height: auto;
   margin: 0 auto;
   font-size: 25px;
@@ -30,6 +30,7 @@ body {
 h1 {
   color: #fff;
   padding: 45px;
+  padding-bottom: 20px;
   padding-left:0;
 }
 
@@ -71,6 +72,7 @@ footer {
 footer a {
   color: #fff;
   text-decoration: none;
+  padding-right: 100px
 }
 
 
@@ -95,14 +97,16 @@ footer a {
 
 /* About Page */
 #me {
-  width: 40%;
+  width: 100%;
   float: left;
+  height: auto;
 }
 
 #bio {
   width: 40%;
   color: white;
   float: right;
+  height: auto;
 }
 
 button {
@@ -125,5 +129,6 @@ button:hover {
 }
 
 .footerflex {
+  align-items: center;
   position: relative;
 }
